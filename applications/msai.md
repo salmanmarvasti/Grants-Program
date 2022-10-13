@@ -35,13 +35,22 @@ Such a platform would allow game theory incentives and smart contract based mark
 
 Our team has years of research and development on medical data along with senior blockchain developers working with IT capable PhD accredited medical doctor(s). Data collection extraction and real time scaling is also part of Dr S Marvasti's and Dr Mahdi Ghandi's resume .
 Furthermore, Dr Marvasti has multiple years experience working with blockchain technologies including ZKP both for cross border fintech and for data analysis through AWS Neptune and AWS Aurora API based databases.
-This is a phased plan with part of the design to be implemented in this first phase, which each phase being usable .
+This is a phased plan with part of the design to be implemented in this first phase, which each phase being usable. In the milestones we describe what we would like to deliver in the first phase.
 in summary benefits of blockchain for this data includes
-* Decentralised: Data ownership is not lost to any central authority and access is controlled through secure  NFT like smart contract
+* Decentralised: Data ownership is not lost to any central authority. Redundancy and access is controlled through secure  NFT like smart contract
+  * For details on how this can be achieved see Notes subsection below.
 * Incentive to participate: various mechanisms  could be developed as smart tokens or native token of the parachain linked to DOT.
 * Users:  publishers of health can receive some amount of token as rewards from any sponsor on the platform. 
 * Public: The api and parachain would be public so that any other apps such that deal with medical data can use this parachain. 
 * The detailed API and openAPI specifications for GRPC and or REST will be documented as part of this proposal.
+
+#### Notes: Smart contract based Access Control
+This is a topic of research and discussion but we intend to implement mechanisms similar to proxy re-encryption of description key where the proxy service is running on the Node(s) that are storing the data in their off chain worker storage. 
+In the first phase encryption keys will be stored at the application level and not at the node level.
+See 
+* https://en.wikipedia.org/wiki/Proxy_re-encryption or 
+* https://www.researchgate.net/publication/327034734_Blockchain-Based_Decentralized_Access_Control_for_IPFS#:~:text=smart contract controlled IPFS.. The smart contract will hold an access control list and the data will be hashed based on account hashes and only hashes which are allowed access will be served. If this was already possible then there would be no need for a separate chain that enforces this. The complexity of initial version will be limited. This is the ultimate intention
+
 ### Project Details
 
 Data models
@@ -284,6 +293,7 @@ to be processed in encrypted form Extension module to connect to NHS app and oth
 [4] https://molid.readthedocs.io/en/latest/programmatic-start.html#construct-an-absolute-uri
 [5] https://solidproject.org/
 [6] https://docs.substrate.io/reference/how-to-guides/offchain-workers/offchain-local-storage/
+[7] IPFS access control through a smart contract https://www.researchgate.net/publication/327034734_Blockchain-Based_Decentralized_Access_Control_for_IPFS
 **How did you hear about the Grants Program?** Web3 Foundation Website 
 
 This is an ambitious project but with your help we will be able to make the changes needed to the backend to support these medical usage of web3
