@@ -176,7 +176,7 @@ Core:
 
 ### Contact
 
-- **Contact Name:**Salman Marvasti
+- **Contact Name:** Salman Marvasti
 - **Contact Email:** marvasti@marvsai.com
 - **Website:** marvsai.com
 
