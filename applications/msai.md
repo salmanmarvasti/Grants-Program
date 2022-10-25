@@ -62,7 +62,7 @@ Thus, in this first phase the data may be encrypted outside the blockchain throu
 - The data 
   - Medical ID - consisting of HASH And JSON details which are encrypted and optional; only the secure hash of an ID reference is required. The decryption will be handled by dedicated service which will be open sources to run alongside the Substrate node. 
   - ID are verified by special validation addresses (See diagram) linked to special trusted organization addresses on the parachain
-  - ID verification is for users of data to require which authorities they accept. Initially it will be us or other organization we work with like the NHS in the UK.
+  - ID verification is for users of data to require which authorities they accept. Initially it will be us or other organization we work with like private clinics or the NHS in the UK.
 
 | HashID | Health system id | DOB (o) | Sex | blood type(o) |
 |--------|------------------|---------|-----|---------------|
