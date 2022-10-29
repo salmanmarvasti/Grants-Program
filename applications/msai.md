@@ -40,7 +40,7 @@ in summary benefits of blockchain for this data includes
   * For details on how this can be achieved see Notes subsection below.
 * Incentive to participate: various mechanisms  could be developed as smart tokens or native token of the parachain linked to DOT.
 * Users:  publishers of health data(i.e our App users and any other app that wishes to store hash checked data) can receive some amount of token as rewards from any sponsor on the platform. In the first instance it would through applications we are developing at MarvsAI
-* Public: The api would be documented as an openapi spec (hash checked with rest API built into the node)  (e.g. demo application we have online https://marvsai.com:8000/docs). The code developed as part of this task would be public so that any other apps such that deal with medical data can use this parachain. 
+* Public: The api would be documented as an openapi spec (hash checked with rest API built into the node)  (e.g. openapi swagger docs. The code developed as part of this task would be public so that any other apps such that deal with medical data can use this parachain. 
   * The detailed API and openAPI specifications will be documented as part of this proposal.
 
 #### Notes: Smart contract based Access Control
