@@ -7,6 +7,7 @@
 - **Project Name:** Medical Data Para Chain
 - **Team Name:** Marvsai Team
 - **Payment Address:** 0x8f1013fa606c6fcbcd3eff057e5b320b0c5f72e2
+- or DOT : 15VMK4n54b7GZ11bK471EE9rGsArH67VBYrrgdX5f1zhjEG5
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
